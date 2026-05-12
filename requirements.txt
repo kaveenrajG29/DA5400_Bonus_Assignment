@@ -1,0 +1,6 @@
+numpy>=1.26
+torch>=2.2
+scikit-learn>=1.4
+tqdm>=4.66
+matplotlib>=3.8
+PyYAML>=6.0
