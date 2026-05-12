@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""End-to-end CondTSC-style dataset condensation for time-series classification.
-
-The implementation follows the paper's practical recipe:
-1. Load class-wise time-series files.
-2. Initialize synthetic samples with per-class MiniBatch K-means.
-3. Optimize synthetic data with multi-view augmentation.
-4. Match real and synthetic training behavior in time and frequency domains.
-5. Evaluate a fresh classifier trained only on the condensed dataset.
-"""
-
 from __future__ import annotations
 
 import argparse
